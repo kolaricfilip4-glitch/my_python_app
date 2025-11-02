@@ -32,12 +32,18 @@ cd my_python_app
 pip install -r requirements.txt
 ```
 
-3. Run the application:
+3. (Optional) Set environment variables for security:
+```bash
+export SECRET_KEY="your-secret-key-here"
+export FLASK_DEBUG="false"  # Set to "true" only for development
+```
+
+4. Run the application:
 ```bash
 python app.py
 ```
 
-4. Open your browser and navigate to:
+5. Open your browser and navigate to:
 ```
 http://127.0.0.1:5000
 ```
